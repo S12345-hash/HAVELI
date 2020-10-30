@@ -8,7 +8,7 @@ import string
 
 import asyncio
 import time
-token='NzEwMzU1ODc1NzkyOTQ1MTUz.X0sDfA.RB0j3YpKoPPTPMR9GFtQBHqBSuA'
+token='NzcxNDY2Mzc2MDk4MzQ5MTI3.X5siDQ.CRRVpvalTTa8fiErcf0L3ZwmsYE'
 prefix = "op"
 bot = commands.Bot(command_prefix=prefix)
 bot.remove_command('help')
@@ -19,8 +19,8 @@ async def on_ready():
     """Tells what the bot to do when it is ready."""
     await bot.change_presence(
         status=discord.Status.dnd,
-        activity=discord.Game('I Am Innocent'))
-    print("User: " + self.user.name)
+        activity=discord.Game('HAVELI'))
+    #print("User: " + self.user.name)
     
 @bot.command()
 async def emp(ctx, *, content:str):
